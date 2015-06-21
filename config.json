@@ -1,0 +1,36 @@
+{
+    "servers":[
+        {
+            "host" : "127.0.0.1",
+            "port" : 9001,
+            "services":[
+                {
+                    "name":"im",
+                    "alias":"im聊天系统--本机版",
+                    "subscription":[
+                        {
+                            "name":"隔壁老王",
+                            "email":"gblw@test.com"
+                        },
+                        {
+                            "name":"测试",
+                            "email":"136@qq.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "admin":[
+        {
+            "name":"老王",
+            "email":"lw@test.com"
+        }
+    ],
+    "mailServer":{
+        "user":"gblw@test.com",
+        "password":"123456",
+        "smtp":"smtp.exmail.qq.com",
+        "port":465
+    }
+}
